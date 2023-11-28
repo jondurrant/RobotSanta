@@ -1,0 +1,12 @@
+set(SRC_FILES 
+    ${CMAKE_CURRENT_LIST_DIR}/Agent.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Eyes.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/EyesAgent.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Head.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/uRosBridge.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/uRosEntities.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/freertos_allocators.c
+    ${CMAKE_CURRENT_LIST_DIR}/pico_usb_transport.c
+    ${CMAKE_CURRENT_LIST_DIR}/HeadEntities.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/ServoMG996.cpp
+)
